@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot
 
-fraud = pd.read_csv("C:\\Users\\Hello\\Desktop\\Data science\\data science\\assignments\\RF\\datasets\\Fraud_check(1).csv")
+fraud = pd.read_csv("C:\\Users\\rites\\Downloads\\Fraud_check(1).csv")
 
 ##Converting the Taxable income variable to bucketing. 
 fraud["income"]="<=30000"
